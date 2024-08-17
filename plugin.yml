@@ -1,0 +1,6 @@
+name: Fly
+version: 1.0.0
+main: fly\Main
+src-namespace-prefix: fly
+api: 5.0.0
+author: Synopsie
