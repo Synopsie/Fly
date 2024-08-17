@@ -1,0 +1,28 @@
+{
+    "name": "synopsie/fly",
+    "description": "Ce plugin permet d'activer ou de désactiver le fly pendant une période définit ou non, ainsi que de modifier ça vitesse de vole.",
+    "type": "project",
+    "require": {
+        "php": "^8.1",
+        "synopsie/sofia-updater": "^1.2",
+        "synopsie/nacre-ui": "^3.0",
+        "synopsie/iriss-command": "^2.0",
+        "synopsie/olymp-permission": "^1.0"
+    },
+    "require-dev": {
+        "friendsofphp/php-cs-fixer": "^3.62"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "fly\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Dumont-Julien",
+            "email": "dumontj357@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable"
+}
