@@ -152,16 +152,16 @@
         },
         {
             "name": "synopsie/sofia-updater",
-            "version": "v1.2.0",
+            "version": "v1.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Synopsie/Sofia-Updater.git",
-                "reference": "843f78c7a862fe4f1022de4b83d40332845c2b48"
+                "reference": "1fcf7ab042d468ef8e8959f9ae2088d209d1b7e6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Synopsie/Sofia-Updater/zipball/843f78c7a862fe4f1022de4b83d40332845c2b48",
-                "reference": "843f78c7a862fe4f1022de4b83d40332845c2b48",
+                "url": "https://api.github.com/repos/Synopsie/Sofia-Updater/zipball/1fcf7ab042d468ef8e8959f9ae2088d209d1b7e6",
+                "reference": "1fcf7ab042d468ef8e8959f9ae2088d209d1b7e6",
                 "shasum": ""
             },
             "require": {
@@ -190,9 +190,9 @@
             "description": "Sofia-Updater est une api permettant à un plugin de vérifier si une nouvelle release est disponible",
             "support": {
                 "issues": "https://github.com/Synopsie/Sofia-Updater/issues",
-                "source": "https://github.com/Synopsie/Sofia-Updater/tree/v1.2.0"
+                "source": "https://github.com/Synopsie/Sofia-Updater/tree/v1.3.0"
             },
-            "time": "2024-08-06T20:07:53+00:00"
+            "time": "2024-08-19T09:53:55+00:00"
         }
     ],
     "packages-dev": [
