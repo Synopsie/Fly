@@ -132,7 +132,7 @@ ainsi que de modifier ça vitesse de vole.
 
 @author Synopsie
 @link https://github.com/Synopsie
-@version 1.0.0
+@version 1.0.1
 
 BODY,
             'location' => 'after_open'

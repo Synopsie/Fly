@@ -23,6 +23,7 @@ namespace fly;
 use fly\commands\FlyCommand;
 use fly\commands\FlySpeedCommand;
 use fly\listener\PlayerJoinListener;
+use fly\session\Session;
 use iriss\IrissCommand;
 use nacre\NacreUI;
 use olymp\PermissionManager;
@@ -97,6 +98,6 @@ class Main extends PluginBase {
 				)
 			]
 		);
-
 	}
+
 }
