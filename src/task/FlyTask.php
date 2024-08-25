@@ -12,7 +12,7 @@
  *
  * @author Synopsie
  * @link https://github.com/Synopsie
- * @version 1.0.0
+ * @version 1.0.1
  *
  */
 
@@ -63,7 +63,7 @@ class FlyTask extends Task {
 		}
 		$config = Main::getInstance()->getConfig();
 		$bossbar->setTitle(str_replace('%time%', Utils::convertTime($this->time), $config->get('bossbar.title', 'Fly mode: %time%')));
-        $this->session->setFlyTime($this->time);
+		$this->session->setFlyTime($this->time);
 		$bossbar->setPercentage($this->time / $this->initTime);
 		if($config->get('use.sound')) {
 			if($this->time <= 5) {
@@ -87,7 +87,7 @@ class FlyTask extends Task {
 			}
 			$this->player->sendMessage($config->get('fly.disabled', "Vous venez de §cdésactiver §fle vole."));
 			$bossbar->removePlayer($this->player);
-            $this->session->setFlyTime(0);
+			$this->session->setFlyTime(0);
 			$this->getHandler()->cancel();
 		}
 		$this->time--;

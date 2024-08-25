@@ -12,7 +12,7 @@
  *
  * @author Synopsie
  * @link https://github.com/Synopsie
- * @version 1.0.0
+ * @version 1.0.1
  *
  */
 
@@ -23,7 +23,6 @@ namespace fly;
 use fly\commands\FlyCommand;
 use fly\commands\FlySpeedCommand;
 use fly\listener\PlayerJoinListener;
-use fly\session\Session;
 use iriss\IrissCommand;
 use nacre\NacreUI;
 use olymp\PermissionManager;
