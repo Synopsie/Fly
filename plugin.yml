@@ -1,5 +1,5 @@
 name: Fly
-version: 1.0.1
+version: 1.0.2
 main: fly\Main
 src-namespace-prefix: fly
 api: 5.0.0

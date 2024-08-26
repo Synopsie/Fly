@@ -28,7 +28,7 @@ use nacre\NacreUI;
 use olymp\PermissionManager;
 use pocketmine\plugin\PluginBase;
 use pocketmine\utils\SingletonTrait;
-use sofia\Updater;
+
 use function file_exists;
 
 class Main extends PluginBase {
@@ -48,8 +48,6 @@ class Main extends PluginBase {
 		}
 
 		require $this->getFile() . 'vendor/autoload.php';
-
-		Updater::checkUpdate('Fly', $this->getDescription()->getVersion(), 'Synopsie', 'Fly');
 
 		NacreUI::register($this);
 		IrissCommand::register($this);
